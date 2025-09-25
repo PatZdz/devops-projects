@@ -4,7 +4,6 @@ from fastapi.responses import Response
 
 app = FastAPI()
 
-# prosty licznik requestów
 REQUEST_COUNT = Counter("request_count", "Total number of requests")
 
 
