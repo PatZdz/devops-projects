@@ -40,5 +40,5 @@ output "static_website_url" {
 }
 
 output "cdn_url" {
-  value = azurerm_cdn_endpoint.endpoint.host_name
+  value = azurerm_cdn_endpoint.endpoint.fqdn
 }
